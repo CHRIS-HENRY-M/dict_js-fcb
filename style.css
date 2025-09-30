@@ -23,86 +23,91 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+ 
+
 }
 .x2 {
   background-color: #eee4da;
   background-image: var(--background-image-url-02);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+  /* */
 }
 .x4 {
   background-color: #f2b179;
   background-image: var(--background-image-url-04);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+  /* */
 }
 .x8 {
   background-color: #f59563;
   background-image: var(--background-image-url-08);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+  
 }
 .x16 {
   background-color: #f67c5f;
   background-image: var(--background-image-url-16);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+ 
 }
 .x32 {
   background-color: #f65e3b;
   background-image: var(--background-image-url-32);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+ 
 }
 .x64 {
   background-color: #edcf72;
   background-image: var(--background-image-url-64);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+ 
 }
 .x128 {
   background-color: #edcc61;
   background-image: var(--background-image-url-128);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+ 
 }
 .x256 {
   background-color: #edc850;
   background-image: var(--background-image-url-256);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+ 
 }
 .x512 {
   background-color: #edc53f;
   background-image: var(--background-image-url-512);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+ 
 }
 .x1024 {
   background-color: #edc22e;
   background-image: var(--background-image-url-1024);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+ 
 }
 .x2048 {
   background-color: #edc22e;
   background-image: var(--background-image-url-2048);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+ 
 }
 .x4096 {
   background-color: #3c3a32;
   background-image: var(--background-image-url-4096);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+ 
 }
 .x8192 {
   background-color: #3c3a32;
   background-image: var(--background-image-url-8192);
   background-size: 100% 100%;
-  color: rgba(0, 0, 0, 0);
+ 
 }
-:root {
+/* :root {
   --background-image-url-02: url("./images/01-zuitt_2.png");
   --background-image-url-04: url("./images/02-zuitt_4.png");
   --background-image-url-08: url("./images/03-zuitt_8.png");
@@ -116,7 +121,7 @@ body {
   --background-image-url-2048: url("./images/011-zuitt_2048.png");
   --background-image-url-4096: url("./images/012-zuitt_4096.png");
   --background-image-url-8192: url("./images/013-zuitt_8192.png");
-}
+} */
 @keyframes slide-from-right {
   0% {
     transform: translateX(100%);
